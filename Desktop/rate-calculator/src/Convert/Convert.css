@@ -1,0 +1,30 @@
+.convert-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.convert-input-headline{
+    position: absolute;
+    margin: 0;
+    top: -22px;
+    font-size: 13px;
+    color: #BE8ED6;
+}
+.convert-input{
+    width: 160px;
+    height: 40px;
+    margin-right: 25px;
+    border-radius: 6px;
+    border: 1px solid #03A9F4;
+    box-shadow: 0 0 6px grey;
+    padding-right: 5px;
+    text-align: right;
+    font-size: 16px;
+    color: #5D5D5D;
+}
+.result-text{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+
+}

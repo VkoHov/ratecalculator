@@ -1,0 +1,36 @@
+.currency-selection{
+    align-items: center;
+    display: flex;
+    margin-bottom: 50px;
+}
+.currency-select-box{
+    position: relative;
+}
+.currency-select-text{
+    position: absolute;
+    margin: 0;
+    top: -20px;
+    font-size: 13px;
+    color: #BE8ED6;
+}
+.currency-selection-headline{
+    margin-right: 25px;
+    font-size: 20px;
+    color: #5D5D5D;
+}
+.currency-select-result{
+    position: absolute;
+    margin: 0;
+    bottom: -23px;
+    font-size: 14px;
+    font-style: italic;
+    color: #5D5D5D;
+}
+.currency-select-inp{
+    width: 155px;
+    height: 45px;
+    border-radius: 6px;
+    background: gainsboro;
+    box-shadow: 0 0 2px gainsboro;
+    font-size: 17px;
+}
