@@ -1,0 +1,38 @@
+.bitcoin-info-box{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.bitcoin-info-titel{
+    margin: 0 5px 0 0;
+    font-size: 20px;
+    color: #5D5D5D;
+}
+.bitcoin-rate-des{
+    bottom: -22px;
+    position: absolute;
+    font-size: 14px;
+    font-style: italic;
+    color: #5D5D5D;
+}
+.gray-line{
+    position: absolute;
+    top: -18px;
+    width: 400px;
+    background: #80808085;
+}
+.refresh-text{
+    margin-top: 1px;
+}
+.text-purple-style{
+    font-size: 14px;
+    font-style: italic;
+    color: #5C49CE;
+    font-weight: 600;
+    cursor: pointer;
+}
+.rate{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
