@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .loader {
     display: flex;
     height: 100vh;
@@ -28,4 +33,9 @@
 .headline{
     margin: 0 0 50px 0;
     color: #5D5D5D;
+}
+
+.bitcoin-headline{
+    margin-bottom: 25px;
+    margin-top: 40px;
 }

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './CurrencySelect.css';
 
 const CurrencySelect = (props) => {

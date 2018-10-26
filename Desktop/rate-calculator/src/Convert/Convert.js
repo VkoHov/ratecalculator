@@ -22,7 +22,7 @@ class Convert extends Component {
                 </p>
                 <input className='convert-input' onChange={this.inpChange} type="text"/>
                 <p className='result-text'>
-                    AMD = {(this.state.inpValue / this.props.amount + '').substring(0,4)} {this.props.currency}
+                    AMD = {(this.state.inpValue / this.props.amount + '').substring(0,5)} {this.props.currency}
                 </p>
             </div>
         )
